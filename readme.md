@@ -20,6 +20,15 @@ npx prisma init
 
 ## migrate prisma model
 
-```bash
+````bash
 ╰─ npx prisma migrate dev --name CreateUsersTable
+
+## user signup
+```bash
+ npm install bcrypt jsonwebtoken
+ npm i --save-dev @types/bcrypt
+````
+
+```
+
 ```
