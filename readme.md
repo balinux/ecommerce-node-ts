@@ -29,6 +29,13 @@ npx prisma init
  npm i --save-dev @types/bcrypt
 ````
 
+## login feature
+
+```bash
+npm i --save-dev @types/jsonwebtoken
 ```
 
+```bash
+# test login
+http -a email:password POST http://localhost:3000/api/auth/login email=ryo@gmail.com password=rio123
 ```
